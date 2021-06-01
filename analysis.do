@@ -8,8 +8,8 @@ clear all
 capture log close
 set linesize 255
 
-global project "//Client/C$/Users/david/Documents/UCLA/2020-2021/Spring Course Materials/Econ 143"
-global data "$project/CSV data files"
+global project "" // insert name of project directory here
+global data "" // insert name of data subdirectory here
 cd "$data"
 
 ssc install estout
